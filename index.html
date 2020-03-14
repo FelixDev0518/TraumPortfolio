@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/613e52e053.js" crossorigin="anonymous"></script>
+  <title></title>
+</head>
+
+<body>
+  <header>
+    <div class="inner-width">
+      <i class="menu-toggle-btn fas fa-bars"></i>
+      <nav class="navigation-menu">
+        <a href="#">home</a>
+        <a href="#">About</a>
+        <a href="#">Works</a>
+        <a href="#">Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <p id="title">Hello. <br />I'm Yoseob Shim</p>
+  <p class="under-title">I wann to make many products with computer to help people. </p>
+  <p id="contact">I want to join your team!<br />
+    <a href="#">Contact me</a> if you want to work together. </p>
+  <div class="icons">
+    <a href="#"><i class="far fa-envelope"></i></a>
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-xing-square"></i></a>
+  </div>
+  <div class="aboutme">
+    <div class="profile">
+    </div>
+    <img id="profile-foto" src="IMG-20181226-WA0028.jpg" alt="">
+    <p id="name">YOSEOB SHIM</p>
+    <p id="job">Developer</p>
+    <p id="dialog">Hi, I am Yoseob Shim.
+      I am studuing computer science in Aachen, Germany. I am eager to be a developer! A few years ago, i worked as a test engineer in a telematics project with LG, Jaguar. </p>
+  </div>
+  <div class="tech">
+    <p id="tech">Technology</p>
+    <div class="technology">
+      <a href="#"  class="web">
+        <p id="web">Web</p>
+      </a>
+      <a href="#" class="android">
+        <p id="android">Android</p>
+      </a>
+      <a href="#" class="java">
+        <p id="java">java</p>
+      </a>
+      <a href="#"  class="hardware">
+        <p id="hardware">hardware</p>
+      </a>
+    </div>
+  </div>
+  <div class="projects">
+    <p id="projects">Projects</p>
+    <a href="#" id="first"></a>
+    <a href="#"id="second"></a>
+    <a href="#"id="third"></a>
+    <a href="#"id="forth"></a>
+  </div>
+</body>
+<script type="text/javascript">
+  $(".menu-toggle-btn").click(function() {
+    $(this).toggleClass("fal fa-times");
+    $(".navigation-menu").toggleClass("active");
+
+  });
+</script>
+
+</html>
