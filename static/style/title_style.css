@@ -5,25 +5,87 @@
   text-decoration: none;
   font-family: 'Ubuntu', sans-serif;
 }
-
-header {
-  height: 70px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+html, body{
+  margin: 0;
+  padding: 0;
+  width:100vw;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
 }
-
 #title {
   position: absolute;
-  width: 290px;
-  height: 79px;
-  left: 32px;
+  width: 50%;
+  height: 190px;
+  left: 30%;
   top: 117px;
-  font-size: 35px;
-  line-height: 40px;
-  letter-spacing: 0.25px;
+  font-size: 98px;
+  letter-spacing: -1.5px;
+}
+#under-title{
+  position: absolute;
+  width: 65%;
+  height: 25%;
+  left: 30.5%;
+  top: 350px;
+  font-size: 49px;
+}
+#contact {
+  position: absolute;
+  width: 65%;
+  height: 25%;
+  left: 30.5%;
+  top: 490px;
+  font-size: 49px;
+}
+#home{
+  width:100%;
+  height: 700px;
+}
+.icons {
+  position: absolute;
+  width:50%;
+  height: 80px;
+  left: 30.5%;
+  top: 620px;
+}
+.fab, .far{
+  width:82.53px;
+  height:78px;
+  padding-left: 30px;
+  padding-right:70px;
+  font-size: 50px;
 }
 
-#contact {
+#aboutme{
+  width:100%;
+  height:500px;
+}
+.aboutme{
+  position: absolute;
+  width: 65%;
+  height: 25%;
+  left: 30.5%;
+}
+#technology{
+  width:100%;
+  height:500px;
+  background: blue;
+}
+#projects{
+  width:100%;
+  height:500px;
+  background: yellow;
+}
+/* #under-title{
+  position: absolute;
+  width: 50%;
+  height: 25%;
+  left: 30%;
+  top: 327px;
+  font-size: 49px;
+} */
+/* #contact {
   position: absolute;
   width: 310px;
   height: 41px;
@@ -32,8 +94,8 @@ header {
   font-size: 16px;
   line-height: 18px;
   letter-spacing: 0.15px;
-}
-#profile-foto{
+} */
+/* #profile-foto{
   position: absolute;
 left: 0%;
 right: 52.19%;
@@ -42,8 +104,8 @@ bottom: 0%;
 width: 164px;
 height: 361px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-#name{
+} */
+/* #name{
   font-size: 24px;
 line-height: 28px;
 position: absolute;
@@ -51,8 +113,8 @@ left: 52.77%;
 right: 12.83%;
 top: 8.03%;
 bottom: 84.21%;
-}
-#job{
+} */
+/* #job{
   position: absolute;
 left: 52.77%;
 right: 10.5%;
@@ -62,8 +124,8 @@ font-weight: 500;
 font-size: 20px;
 line-height: 23px;
 letter-spacing: 0.15px;
-}
-#dialog{
+} */
+/* #dialog{
   position: absolute;
 left: 52.77%;
 right: 0%;
@@ -73,8 +135,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 18px;
 letter-spacing: 0.15px;
-}
-#tech{
+} */
+/* #tech{
   position: absolute;
 width: 195px;
 height: 39px;
@@ -85,8 +147,8 @@ top: 762px;
 font-size: 35px;
 line-height: 40px;
 letter-spacing: 0.25px;
-}
-#web{
+} */
+/* #web{
   position: absolute;
 left: 15.74%;
 right: 67.64%;
@@ -96,10 +158,10 @@ font-weight: 500;
 font-size: 24px;
 line-height: 28px;
 color: #ffffff;
-}
-#android{
+} */
+/* #android{
 color: #ffffff;
-/* position: absolute; */
+/* position: absolute;
 width: 92px;
 height: 29px;
 left: 216px;
@@ -107,8 +169,8 @@ top: 34px;
 font-weight: 500;
 font-size: 24px;
 line-height: 28px;
-}
-#java{
+} */
+/* #java{
 color: #ffffff;
 width: 58px;
 height: 33px;
@@ -118,8 +180,8 @@ font-weight: 500;
 font-size: 24px;
 line-height: 28px;
 
-}
-#hardware{
+} */
+/* #hardware{
 color: #ffffff;
 width: 112px;
 height: 27px;
@@ -129,8 +191,8 @@ top: 251px;
 font-weight: 500;
 font-size: 24px;
 line-height: 28px;
-}
-#projects{
+} */
+/* #projects{
   position: absolute;
 left: 0.58%;
 right: 42.4%;
@@ -139,16 +201,16 @@ bottom: 94.34%;
 font-size: 35px;
 line-height: 40px;
 letter-spacing: 0.25px;
-}
-#first{
+} */
+/* #first{
   position: absolute;
 left: 0%;
 right: 0%;
 top: 7.69%;
 bottom: 71.41%;
 background: url(.jpg), #0F0F0F;
-}
-#second{
+} */
+/* #second{
   position: absolute;
 left: 0%;
 right: 0%;
@@ -156,8 +218,8 @@ top: 31.49%;
 bottom: 47.61%;
 
 background: url(.jpg), #909090;
-}
-#third{
+} */
+/* #third{
   position: absolute;
 left: 0%;
 right: 0%;
@@ -165,8 +227,8 @@ top: 55.3%;
 bottom: 23.8%;
 
 background: url(.jpg), #525252;
-}
-#forth{
+} */
+/* #forth{
   position: absolute;
 left: 0%;
 right: 0%;
@@ -174,81 +236,81 @@ top: 79.1%;
 bottom: 0%;
 
 background: url(.jpg), #D0D0D0;
-}
-.projects{
+} */
+/* .projects{
   position: absolute;
 width: 342px;
 height: 689px;
 left: 17px;
 top: 1144px;
-}
-.hardware{
+} */
+/* .hardware{
   position: absolute;
   left: 0%;
   right: 0%;
   top: 67.31%;
   bottom: 0%;
 background: #d35400;
-}
-.java{
+} */
+/* .java{
   position: absolute;
   width: 163px;
   height: 96.29px;
   left: 180px;
   top: 103.29px;
   background: #8e44ad;
-}
-.android{
+} */
+/* .android{
   position: absolute;
   width: 163px;
   height: 96.29px;
   left: 180px;
   top: 0px;
   background: #2c3e50;
-}
-.web{
+} */
+/* .web{
   position: absolute;
   left: 0%;
   right: 52.19%;
   top: 0%;
   bottom: 36.84%;
 background: #3498db;
-}
-.technology{
+} */
+/* .technology{
   position: absolute;
 width: 343px;
 height: 316px;
 left: 16px;
 top: 808px;
-}
-.profile{
+} */
+/* .profile{
   position: absolute;
 left: 0%;
 right: 0%;
 top: 3.32%;
 bottom: 2.77%;
 background: #C4C4C4;
-}
-.aboutme{
+} */
+/* .aboutme{
   position: absolute;
 width: 343px;
 height: 361px;
 left: 16px;
 top: 381px;
-}
-.icons {
+} */
+/* .icons {
   position: absolute;
   width:350px;
   height: 30px;
   left: 32px;
   top: 304px;
-}
-i{
+} */
+/* i{
 margin: 15px;
   width: 30px;
   height: 30px;
-}
-.under-title {
+} */
+/* .under-title {
   position: absolute;
   width: 239px;
   height: 41px;
@@ -260,87 +322,4 @@ margin: 15px;
   font-size: 16px;
   line-height: 18px;
   letter-spacing: 0.15px;
-}
-
-.inner-width {
-  max-width: 1000px;
-  padding: 0 10px;
-  margin: auto;
-}
-
-.navigation-menu {
-  float: right;
-  display: flex;
-  align-items: center;
-  min-height: 70px;
-}
-
-.navigation-menu a {
-  margin-left: 10px;
-  color: #ddd;
-  text-transform: uppercase;
-  font-size: 14px;
-  padding: 12px 20px;
-  border-radius: 4px;
-  transition: .3s linear;
-}
-
-.navigation-menu a:hover {
-  background: #fff;
-  color: #2f3640 transform: scale(1.1);
-}
-
-.navigation-menu i {
-  margin-right: 8px;
-  font-size: 16px;
-}
-
-.menu-toggle-btn {
-  float: right;
-  height: 70px;
-  line-height: 70px !important;
-  color: rgba(0, 0, 0, 0.47);
-  margin: 0px;
-  padding: 0px;
-  font-size: 26px;
-  display: none !important;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 500px) {
-  .menu-toggle-btn {
-    display: block !important;
-  }
-
-  .navigation-menu {
-    position: fixed;
-    width: 100%;
-    max-width: 400px;
-    background: #172b4d;
-    top: 70px;
-    right: 0;
-    display: none;
-    padding: 20px 40px;
-    box-sizing: border-box;
-    transition: 0.4s;
-  }
-
-  .navigation-menu::before {
-    content: "";
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #172b4d;
-    position: absolute;
-    top: -10px;
-    right: 10px;
-  }
-
-  .navigation-menu a {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .navigation-menu.active {
-    display: block;
-  }
-}
+} */
